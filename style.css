@@ -1,14 +1,108 @@
 *{
     font-family: 'Orbitron', sans-serif;
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-size: 32px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 32px;
 }
 body{
-    background: repeating-radial-gradient(#00958f, #369356);
+    background: repeating-radial-gradient(#340b80, #1a0240);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ul{
+    position: relative;
+    transform: skewY(-15deg);321`
+}
+
+ul li img{
+    position: absolute;
+    top: 5px;
+    left: -35px;
+    bottom: 10px;
+    width: 30px;
+    height: 70%;
+    transform-origin: right;
+    transform: skewY(45deg);
+    content: "";
+
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    width: 250px;
+    background: #4900ad;
+    padding: 6px;
+    z-index: var(--i);
+    transition: 1.5s;
+    box-shadow: 0 0 8px #ffffff;
+}
+
+ul li:hover{
+    background: #6b00ff;
+    transform:translateX(-45px);
+    box-shadow: 0 0 5px #fff;
+}
+
+ul li:hover::before{
+    background: #6b00ff;
+    box-shadow: 0 0 5px #fff;
+}
+
+ul li:hover::after{
+    background: #6b00ff;
+    box-shadow: 0 0 5px #fff;
+}
+
+ul li::before{
+    content: "";
+    position: absolute;
+    background: #4900ad;
+    width: 40px;
+    height: 100%;
+    top:0;
+    left: -40px;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 1.5s;
+    box-shadow: 0 0 5px #fff;
+}
+
+ul li::after{
+    content: "";
+    position: absolute;
+    background: #4900ad;
+    width: 100%;
+    height: 40px;
+    top: -40px;
+    left: 0px;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 1.5s;
+    box-shadow: 0 0 5px #fff;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #b7b7b7;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+ul li:hover a{
+    color: #ffffff;
+    text-shadow: 0 0 5px white;
+}
+
+.MyName{
+    text-decoration: none;
+    color: #4b0072;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
 }
