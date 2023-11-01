@@ -13,8 +13,16 @@ body{
     align-items: center;
 }
 
-ul{
+
+.UL1{
     position: relative;
+    left: -50px;
+    transform: skewY(-15deg);321`
+}
+
+.UL2{
+    position: relative;
+    left: 50px;
     transform: skewY(-15deg);321`
 }
 
@@ -35,54 +43,54 @@ ul li{
     position: relative;
     list-style: none;
     width: 250px;
-    background: #4900ad;
+    background: #43266a;
     padding: 6px;
     z-index: var(--i);
-    transition: 1.5s;
+    transition: .5s;
     box-shadow: 0 0 8px #ffffff;
 }
 
 ul li:hover{
-    background: #6b00ff;
+    background: #61369a;
     transform:translateX(-45px);
     box-shadow: 0 0 5px #fff;
 }
 
 ul li:hover::before{
-    background: #6b00ff;
+    background: #61369a;
     box-shadow: 0 0 5px #fff;
 }
 
 ul li:hover::after{
-    background: #6b00ff;
+    background: #61369a;
     box-shadow: 0 0 5px #fff;
 }
 
 ul li::before{
     content: "";
     position: absolute;
-    background: #4900ad;
+    background: #43266a;
     width: 40px;
     height: 100%;
     top:0;
     left: -40px;
     transform-origin: right;
     transform: skewY(45deg);
-    transition: 1.5s;
+    transition: .5s;
     box-shadow: 0 0 5px #fff;
 }
 
 ul li::after{
     content: "";
     position: absolute;
-    background: #4900ad;
+    background: #43266a;
     width: 100%;
     height: 40px;
     top: -40px;
     left: 0px;
     transform-origin: bottom;
     transform: skewX(45deg);
-    transition: 1.5s;
+    transition: .5s;
     box-shadow: 0 0 5px #fff;
 }
 
@@ -96,13 +104,137 @@ ul li a{
 
 ul li:hover a{
     color: #ffffff;
-    text-shadow: 0 0 5px white;
 }
 
 .MyName{
     text-decoration: none;
-    color: #4b0072;
+    color: #3b005a;
     display: block;
     letter-spacing: .05em;
     transition: .5s;
+}
+
+.MyName:hover {
+    color: #7e00ff;
+}
+
+.YT a{
+    text-decoration: none;
+    color: #550000;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.YT:hover a{
+    color: #ff0000;
+
+}
+
+.ST a{
+    text-decoration: none;
+    color: #181858;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.ST:hover a{
+    color: #3131ac;
+}
+
+.TW a{
+    text-decoration: none;
+    color: #440050;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.TW:hover a{
+    color: #c700eb;
+}
+
+.VK a{
+    text-decoration: none;
+    color: #002a5c;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.VK:hover a{
+    color: #0075ff;
+}
+
+.GH a{
+    text-decoration: none;
+    color: #032700;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.GH:hover a{
+    color: #00aa07;
+}
+
+.MH a{
+    text-decoration: none;
+    color: #2a2700;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.MH:hover a{
+    color: #d6c600;
+}
+
+.DS a{
+    text-decoration: none;
+    color: #2e2546;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.DS:hover a{
+    color: #896ed3;
+}
+
+.MC a{
+    text-decoration: none;
+    color: #0f4e00;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.MC:hover a{
+    color: #2ad900;
+}
+
+.TR a{
+    text-decoration: none;
+    color: #4b0040;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.TR:hover a{
+    color: #bf00a2;
+}
+
+.MS a{
+    text-decoration: none;
+    color: #3b0000;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.MS:hover a{
+    color: #ff0000;
 }
