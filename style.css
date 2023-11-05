@@ -23,14 +23,14 @@ body{
 .UL2{
     position: relative;
     left: 150px;
-    bottom: 13px;
+    bottom: 65px;
     transform: skewY(-15deg);
 }
 
 .UL3{
     position: relative;
     left: -50px;
-    bottom: -170px;
+    bottom: -165px;
     transform: skewY(-15deg);
 }
 
@@ -245,4 +245,40 @@ ul li:hover a{
 
 .MS:hover a{
     color: #ff0000;
+}
+
+.RD a{
+    text-decoration: none;
+    color: #3b0e00;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.RD:hover a{
+    color: #d93400;
+}
+
+.RB a{
+    text-decoration: none;
+    color: #4b0000;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.RB:hover a{
+    color: #d60000;
+}
+
+.CA a{
+    text-decoration: none;
+    color: #1b203b;
+    display: block;
+    letter-spacing: .05em;
+    transition: .5s;
+}
+
+.CA:hover a{
+    color: #5b6abf;
 }
