@@ -16,14 +16,22 @@ body{
 
 .UL1{
     position: relative;
-    left: -50px;
-    transform: skewY(-15deg);321`
+    left: 50px;
+    transform: skewY(-15deg);
 }
 
 .UL2{
     position: relative;
-    left: 50px;
-    transform: skewY(-15deg);321`
+    left: 150px;
+    bottom: 13px;
+    transform: skewY(-15deg);
+}
+
+.UL3{
+    position: relative;
+    left: -50px;
+    bottom: -170px;
+    transform: skewY(-15deg);
 }
 
 ul li img{
